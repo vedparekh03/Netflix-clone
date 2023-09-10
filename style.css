@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./netflix-main-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    /* width: 80%; */
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 550;
+    font-size: small;
+
+}
+
+#sign-in-button {
+    background-color: #e50914;
+    color: white;
+    margin-left: 20px;
+}
+
+#lang-button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border: 2px solid transparent; */
+}
+
+#lang-button:hover {
+    border: 3px solid white;
+}
+
+#content-header {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.big-heading {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+.small-heading {
+    font-weight: 300;
+}
+
+.heading {
+    line-height: 225%;
+}
+
+#email-and-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+#input-box-header {
+    height: 8vh;
+    width: 60vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid whitesmoke;
+    font-size: 1rem;
+    padding-left: 2vh;
+    border-radius: 2%;
+    margin-right: 2vh;
+}
+
+#get-started-button {
+    height: 8vh;
+    width: 30vh;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 5%;
+}
+
+.line-break {
+    height: 1vh;
+    border: none;
+    background-color: darkslategray;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+}
+
+.content-feature {
+    width: 80vh;
+}
+
+.content-feature p {
+    font-size: 1.5rem;
+    margin-top: 2.5vh;
+    line-height: 140%;
+}
+
+.odd-content {
+    margin-right: 3vh;
+}
+
+.even-content {
+    margin-left: 3vh;
+}
+
+.faq-button {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: gray;
+    color: white;
+    padding: 2.5vh;
+    font-size: 1.3rem;
+    border: none;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+.accordion {
+    width: 80%;
+
+}
+
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#faq-heading {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.list li {
+    list-style: none;
+    line-height: 225%;
+}
+
+.list a {
+    color: white;
+}
+
+#others {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.accordion-item,
+.accordion-header {
+    background-color: gray;
+    color: white;
+    margin-bottom: 2vh;
+    border-bottom: none;
+    font-size: 1.3rem;
+}
+
+.accordion-button {
+    background-color: gray;
+    color: white;
+    font-size: 1.3rem;
+}
